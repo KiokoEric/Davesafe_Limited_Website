@@ -1,15 +1,14 @@
 import * as z from 'zod';
-import React from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useSnackbar } from 'notistack';
 import { AiFillMail } from "react-icons/ai";
 import { zodResolver } from '@hookform/resolvers/zod';
 import Icon from '../../Components/Common/Contact/Icon';
 import { useForm, SubmitHandler } from 'react-hook-form';
+import Button from '../../Components/Common/Button/Button';
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import Heading from '../../Components/Common/Heading/Heading';
-import Button from '../../Components/Common/Button/Button';
-
 
 interface FormValues {
     Name: string;
@@ -19,6 +18,10 @@ interface FormValues {
 };
 
 const Contact:React.FC = () => {
+
+    const { enqueueSnackbar } = useSnackbar();
+
+    const formRef = useRef<HTMLFormElement | any>(null); 
     
     // CREATION OF THE REGISTRATION ZOD SCHEMA
 
@@ -29,16 +32,12 @@ const Contact:React.FC = () => {
         Email: z.string().email({ message: "Invalid email address" }),
     });
 
-    const { enqueueSnackbar } = useSnackbar();
-
     const { register, handleSubmit, formState: { errors } } = useForm<FormValues>({
         resolver: zodResolver(ContactSchema)
     });
 
-    type UserData = z.infer<typeof ContactSchema>
-
-    const onSubmit: SubmitHandler<FormValues> = async (data: UserData) => {
-        emailjs.sendForm('service_lnd17pd', 'template_ljtj0rg', data, '5H9ekQHtYztzp2ykN')
+    const onSubmit: SubmitHandler<FormValues> = async () => {
+        emailjs.sendForm('service_lnd17pd', 'template_ljtj0rg', formRef.current, '5H9ekQHtYztzp2ykN')
         enqueueSnackbar("Message has been successfully sent", {variant: "success"})
     }
 
