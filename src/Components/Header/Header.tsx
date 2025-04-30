@@ -46,7 +46,7 @@ return (
         <section className='hidden md:block'>
             <Navigate 
                 Navigation={'/Contact'}
-                NavigateStyle='bg-blue-600 cursor-pointer no-underline py-1 px-5 rounded text-lg text-white hover:bg-black'
+                NavigateStyle='bg-blue-600 cursor-pointer flex no-underline py-1 px-5 rounded text-lg text-white hover:bg-black'
                 NavigateText='Contact Now'
             />
         </section>
