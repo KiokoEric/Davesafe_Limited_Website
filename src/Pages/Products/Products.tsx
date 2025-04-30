@@ -2,6 +2,7 @@ import AOS from 'aos';
 import React, { useEffect } from 'react';
 import Figure from '../../Components/Common/Figure/Figure';
 import Heading from '../../Components/Common/Heading/Heading';
+import School_Apparel from "../../assets/Apparel/School Apparel.webp";
 import Head_Gear from "../../assets/Home_Page/Protective_HeadGear.jpg";
 import Eye_Protection from "../../assets/Home_Page/Eye_Protection.jpg";
 import Ear_Protection from "../../assets/Home_Page/Ear_Protection.jpg";
@@ -70,6 +71,12 @@ return (
                 ContainerStyle='cursor-pointer flex flex-col gap-4'
                 Image={ Protective_Clothing }
                 NavigateText='Personal Protective Clothing'
+            />
+            <Figure
+                Navigation={'/SchoolClothing'}
+                ContainerStyle='cursor-pointer flex flex-col gap-4'
+                Image={ School_Apparel }
+                NavigateText='School Apparel'
             />
         </section>
     </div>

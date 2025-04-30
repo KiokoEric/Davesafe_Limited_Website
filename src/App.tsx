@@ -4,6 +4,7 @@ import Home from './Pages/Home/Home';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
+import School_Clothing from './Pages/Information/School_Clothing/School_Clothing';
 const About = React.lazy(() => import('./Pages/About/About'));
 const Contact = React.lazy(() => import('./Pages/Contact/Contact'));
 const Products = React.lazy(() => import('./Pages/Products/Products'));
@@ -28,6 +29,7 @@ function App() {
         <Route path='/HeadGear' element={<React.Suspense><Head_Gear/></React.Suspense>}/>
         <Route path='/FootWear' element={<React.Suspense><Foot_Wear /></React.Suspense>}/>
         <Route path='/HandGloves' element={<React.Suspense><Hand_Gloves /></React.Suspense>}/>
+        <Route path='/SchoolClothing' element={<React.Suspense><School_Clothing /></React.Suspense>}/>
         <Route path='/FaceProtection' element={<React.Suspense><Face_Protection /></React.Suspense>}/>
         <Route path='/HearingProtection' element={<React.Suspense><Hearing_Protection /></React.Suspense>}/>
         <Route path='/ProtectiveClothing' element={<React.Suspense><Protective_Clothing/></React.Suspense>}/>

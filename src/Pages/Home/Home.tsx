@@ -5,6 +5,7 @@ import Heading from '../../Components/Common/Heading/Heading';
 import Head_Gear from "../../assets/Home_Page/Protective_HeadGear.jpg";
 import Eye_Protection from "../../assets/Home_Page/Eye_Protection.jpg";
 import Ear_Protection from "../../assets/Home_Page/Ear_Protection.jpg";
+import School_Apparel from "../../assets/Home_Page/School Apparel.webp";
 import Foot_Protection from "../../assets/Home_Page/Foot_Protection.jpeg";
 import Hand_Gloves from "../../assets/Home_Page/Protective_HandGloves.jpg";
 import Protective_Clothing from "../../assets/Home_Page/Protective_Clothing.webp";
@@ -96,6 +97,15 @@ return (
                 DescriptionStyle='text-center'
                 Description= 'Personal protective clothing refers to apparel designed to protect individuals from various workplace hazards and risks. Personal protective clothing that we provide are '
                 Items='Aprons, Chef Uniform, Dust Coats, Dungarees, Eskimo Suits, Kaunda Suits, Overalls, PVC Aprons, Rain Coats, Rider Suits, Security Guard Uniform and Spray Suits.'
+            />
+            <Figure
+                Navigation={'/SchoolClothing'}
+                ContainerStyle='cursor-pointer flex flex-col gap-4 text-center'
+                Image={ School_Apparel }
+                NavigateText='School Apparel'
+                DescriptionStyle='text-center'
+                Description= 'School apparel clothing typically refers to the clothing items that are worn by students as part of a schools dress code or uniform policy'
+                Items='School Round Neck T-Shirts, School Polo T-Shirts, School Fleece Jackets, School Track Suit.'
             />
         </section>
     </div>
