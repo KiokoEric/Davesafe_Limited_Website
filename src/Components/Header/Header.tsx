@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Button from '../Common/Button/Button';
-import Navigate from '../Common/Navigate/Navigate'
+import Navigate from '../Common/Navigate/Navigate';
+import Logo from '../../assets/Home_Page/Logo.jpeg';
 import { faX } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -21,8 +22,10 @@ return (
     <div className='flex items-center justify-between m-auto px-2 py-0.5 shadow-lg sticky'>
         <section>
             <Navigate 
+                Image={Logo}
+                Width='50px'
                 Navigation={'/'}
-                NavigateStyle='font-bold no-underline text-black text-3xl'
+                NavigateStyle='flex gap-1 items-center font-bold no-underline text-black text-3xl'
                 NavigateText='Davesafe Limited'
             />
         </section>
