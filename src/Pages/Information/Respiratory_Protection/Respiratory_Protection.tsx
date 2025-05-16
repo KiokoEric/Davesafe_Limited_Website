@@ -18,16 +18,19 @@ return (
             <Figure
                 ContainerStyle='flex flex-col gap-4 text-center'
                 Image={ Dust_Masks }
+                Width='600px'
                 NavigateText='Dust Masks'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4 text-center'
                 Image={ Half_Face_Mask }
+                Width='600px'
                 NavigateText='3M Half Face Respiratory Mask'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4 text-center'
                 Image={ Full_Face_Mask }
+                Width='600px'
                 NavigateText='3M Full Face Respiratory Mask'
             />
         </section>

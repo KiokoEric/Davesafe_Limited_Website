@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Figure from '../../../Components/Common/Figure/Figure';
 import Heading from '../../../Components/Common/Heading/Heading';
 import Track_Suit from "../../../assets/Apparel/School Apparel.webp";
@@ -19,21 +19,25 @@ return (
             <Figure
                 ContainerStyle='flex flex-col gap-4 text-center'
                 Image={Fleece_Jacket }
+                Width='600px'
                 NavigateText='Fleece Jacket'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4 text-center'
                 Image={ Polo_Shirt }
+                Width='600px'
                 NavigateText='School Polo T-Shirts'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4 text-center'
                 Image={ RoundNeck_Shirt }
+                Width='600px'
                 NavigateText='School Round Neck T-Shirts'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4 text-center'
                 Image={ Track_Suit }
+                Width='600px'
                 NavigateText='School Track Suit'
             />
         </section>

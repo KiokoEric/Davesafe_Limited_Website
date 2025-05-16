@@ -17,11 +17,13 @@ return (
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Ear_Muffs }
+                Width='600px'
                 NavigateText='Ear Muffs'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Ear_Plugs }
+                Width='600px'
                 NavigateText='Ear Plugs'
             />
         </section>

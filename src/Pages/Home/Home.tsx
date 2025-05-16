@@ -8,6 +8,7 @@ import Ear_Protection from "../../assets/Home_Page/Ear_Protection.jpg";
 import School_Apparel from "../../assets/Home_Page/School Apparel.webp";
 import Foot_Protection from "../../assets/Home_Page/Foot_Protection.jpeg";
 import Hand_Gloves from "../../assets/Home_Page/Protective_HandGloves.jpg";
+import Security_Uniform from "../../assets/Home_Page/Security_Uniform.png";
 import Protective_Clothing from "../../assets/Home_Page/Protective_Clothing.webp";
 import Respiratory_Protection from "../../assets/Home_Page/Respiratory_Protection.jpg";
 
@@ -35,6 +36,7 @@ return (
                 Navigation={'/HeadGear'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4 text-center'
                 Image={ Head_Gear}
+                Width='600px'
                 NavigateText='Protective Head Gear'
                 DescriptionStyle='text-center'
                 Description= 'Protective head gear refers to equipment designed to protect the head from various types of injuries and is commonly used in sports, industrial settings, and other activities where there is a risk of head trauma. Protective headgears that we provide are'
@@ -44,6 +46,7 @@ return (
                 Navigation={'/FaceProtection'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4 text-center'
                 Image={ Eye_Protection }
+                Width='600px'
                 NavigateText='Eye and Face Protection'
                 DescriptionStyle='text-center'
                 Description= 'Eye and face protection rfers to equipment designed to safeguard the eyes and face from various potential hazards in settings where there is a risk of eye injuries, such as exposure to flying debris, chemical splashes, high-velocity impact, intense light, or harmful radiation. Eye and face protection that we provide are '
@@ -53,6 +56,7 @@ return (
                 Navigation={'/HearingProtection'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4 text-center'
                 Image={ Ear_Protection }
+                Width='600px'
                 NavigateText='Hearing Protection'
                 DescriptionStyle='text-center'
                 Description= 'Hearing protection refers to equipment designed to reduce or eliminate exposure to excessive noise levels, thereby safeguarding the hearing of individuals who are at risk of noise-induced hearing damage or loss. Hearing Protection devices that we provide are '
@@ -64,6 +68,7 @@ return (
                 Navigation={'/RespiratoryProtection'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4 text-center'
                 Image={ Respiratory_Protection }
+                Width='600px'
                 NavigateText='Respiratory Protection'
                 DescriptionStyle='text-center'
                 Description= 'Respiratory protection refers to equipment used to safeguard the respiratory system from exposure to harmful airborne contaminants, particles, gases, vapors, or pathogens. Respiratory protection devices we provide are '
@@ -73,6 +78,7 @@ return (
                 Navigation={'/HandGloves'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4 text-center'
                 Image={ Hand_Gloves }
+                Width='600px'
                 NavigateText='Protective Hand Gloves'
                 DescriptionStyle='text-center'
                 Description= 'Protective hand gloves are specialized gloves designed to protect the hands from various hazards including physical injuries, chemicals, extreme temperatures, and biological agents. Protective hand gloves that we provide are '
@@ -82,6 +88,7 @@ return (
                 Navigation={'/FootWear'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4 text-center'
                 Image={ Foot_Protection }
+                Width='600px'
                 NavigateText='Protective Foot Wear'
                 DescriptionStyle='text-center'
                 Description= 'Protective foot wear, also known as safety footwear or work boots, are footwear to protect the feet from various workplace hazards and injuries. Protective Footwear that we provide are '
@@ -93,15 +100,27 @@ return (
                 Navigation={'/ProtectiveClothing'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4 text-center'
                 Image={ Protective_Clothing }
+                Width='600px'
                 NavigateText='Personal Protective Clothing'
                 DescriptionStyle='text-center'
                 Description= 'Personal protective clothing refers to apparel designed to protect individuals from various workplace hazards and risks. Personal protective clothing that we provide are '
-                Items='Aprons, Chef Uniform, Dust Coats, Dungarees, Eskimo Suits, Kaunda Suits, Overalls, PVC Aprons, Rain Coats, Rider Suits, Security Guard Uniform and Spray Suits.'
+                Items='Aprons, Chef Uniform, Dust Coats, Eskimo Suits, Kaunda Suits, Overalls, PVC Aprons, Rain Coats, Rider Suits and Spray Suits.'
+            />
+            <Figure
+                Navigation={'/SecurityUniform'}
+                ContainerStyle='cursor-pointer flex flex-col items-center gap-4 text-center'
+                Image={ Security_Uniform }
+                Width='250px'
+                NavigateText='Security Uniform'
+                DescriptionStyle='text-center'
+                Description= 'Security Uniform refer to outfits worn by security guards or personnel to clearly identify them as individuals responsible for ensuring safety, order, and protection of people, property, or premises. Security Uniform that we provide are '
+                Items='Security Shirts, Security Trousers, Security Sweaters, Security Socks, Security boots and Security Batons.'
             />
             <Figure
                 Navigation={'/SchoolClothing'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4 text-center'
                 Image={ School_Apparel }
+                Width='600px'
                 NavigateText='School Apparel'
                 DescriptionStyle='text-center'
                 Description= 'School apparel clothing typically refers to the clothing items that are worn by students as part of a schools dress code or uniform policy'

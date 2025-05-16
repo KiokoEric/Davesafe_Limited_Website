@@ -24,46 +24,55 @@ return (
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Canvas_Gloves }
+                Width='600px'
                 NavigateText='Canvas Gloves'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Cotton_Gloves }
+                Width='600px'
                 NavigateText='Cotton Hand Gloves'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Cut_Resistant_Gloves }
+                Width='600px'
                 NavigateText='Cut Resistant Gloves'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Diamond_Gloves }
+                Width='600px'
                 NavigateText='Diamond Gloves'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Leather_Gloves }
+                Width='600px'
                 NavigateText='Leather Gloves'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Nitrile_Gloves }
+                Width='600px'
                 NavigateText='Nitrile Gloves'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Latex_Gloves }
+                Width='600px'
                 NavigateText='Latex Gloves'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ PVC_Gloves }
+                Width='600px'
                 NavigateText='PVC Gloves'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Welding_Gloves }
+                Width='600px'
                 NavigateText='Welding Gloves'
             />
         </section>

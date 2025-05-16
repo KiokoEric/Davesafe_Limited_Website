@@ -7,6 +7,7 @@ import PVC_Apron from "../../../assets/Protective_Clothing/PVC_Apron.webp";
 import Dust_Coat from "../../../assets/Protective_Clothing/Dust_Coats.png";
 import Spray_Suit from "../../../assets/Protective_Clothing/Spray_Suit.webp";
 import Eskimo_Suit from "../../../assets/Protective_Clothing/Eskimo_Suit.jpg";
+import Reflector_Jacket from "../../../assets/Protective_Clothing/Reflector_Jackets.webp";
 
 const Protective_Clothing:React.FC = () => {
 return (
@@ -21,31 +22,43 @@ return (
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Dust_Coat }
-                NavigateText='Dust Coats'
-            />
-            <Figure
-                ContainerStyle='flex flex-col gap-4'
-                Image={ Eskimo_Suit }
-                NavigateText='Eskimo Suit'
-            />
-            <Figure
-                ContainerStyle='flex flex-col gap-4'
-                Image={ Overall }
-                NavigateText='Overalls'
+                Width='600px'
+                NavigateText='Dust Coat'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ PVC_Apron }
+                Width='600px'
                 NavigateText='PVC Apron'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
+                Image={ Overall }
+                Width='600px'
+                NavigateText='Overall'
+            />
+            <Figure
+                ContainerStyle='flex flex-col gap-4'
+                Image={ Reflector_Jacket }
+                Width='600px'
+                NavigateText='Reflector Jacket'
+            />
+            <Figure
+                ContainerStyle='flex flex-col gap-4'
+                Image={ Eskimo_Suit }
+                Width='600px'
+                NavigateText='Eskimo Overall'
+            />
+            <Figure
+                ContainerStyle='flex flex-col gap-4'
                 Image={ Rain_Coat }
+                Width='600px'
                 NavigateText='Rain Coat'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Spray_Suit }
+                Width='600px'
                 NavigateText='Spray Suit'
             />
         </section>

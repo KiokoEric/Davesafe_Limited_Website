@@ -11,7 +11,7 @@ return (
                 IconStyle='flex gap-2 justify-center'
                 children={<AiFillMail size="1.5rem" color='white' />}
                 TextStyle='text-base text-white sm:text-lg'
-                Text='Email: info@davesafeltd.com | davesafeltd@gmail.com'
+                Text='Email: info@davesafeltd.com'
             />
             <Icon 
                 IconStyle='flex gap-2 items-center justify-center'

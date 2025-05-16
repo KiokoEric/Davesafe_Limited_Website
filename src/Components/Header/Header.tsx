@@ -79,7 +79,7 @@ return (
                     <Navigate 
                         Navigation={'/Contact'}
                         NavigateStyle='border-b-2 border-white no-underline pb-2 text-center text-white text-base hover:text-blue-600'
-                        NavigateText='Contact Now'
+                        NavigateText='Contact'
                     />
                 </nav>
             )}

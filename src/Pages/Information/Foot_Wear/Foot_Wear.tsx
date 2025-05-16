@@ -19,21 +19,25 @@ return (
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Gum_Boots }
+                Width='600px'
                 NavigateText='Gum Boots'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Safety_Shoes }
+                Width='600px'
                 NavigateText='Safety Shoes'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Safety_Boots }
+                Width='600px'
                 NavigateText='Safety Boots'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Security_Boots }
+                Width='600px'
                 NavigateText='Security Boots'
             />
         </section>

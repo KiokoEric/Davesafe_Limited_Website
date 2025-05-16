@@ -20,26 +20,31 @@ return (
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Face_Sheild }
+                Width='600px'
                 NavigateText='Face Shield'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Safety_Goggles }
+                Width='600px'
                 NavigateText='Safety Goggles'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Safety_Spectacles }
+                Width='600px'
                 NavigateText='Safety Spectacles'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Welding_Goggles }
+                Width='600px'
                 NavigateText='Welding Safety Goggles'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Welding_Sheild }
+                Width='600px'
                 NavigateText='Welding Shield'
             />
         </section>

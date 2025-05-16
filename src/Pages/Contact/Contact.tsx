@@ -56,7 +56,7 @@ return (
                     IconStyle='flex gap-2'
                     children={<AiFillMail size="2.5rem" />}
                     TextStyle='font-bold text-3xl'
-                    Text='info@davesafeltd.com | davesafeltd@gmail.com'
+                    Text='info@davesafeltd.com'
                 />
                 <Icon 
                     IconStyle='flex gap-2'

@@ -21,7 +21,6 @@ html::-webkit-scrollbar-track {
 body {
   font-family: 'Instrument Serif', serif;
   font-size: 19px;
-  min-height: 35rem;
   overflow-x: hidden;
 }
 #Home {
@@ -113,6 +112,13 @@ body {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assets/Apparel/Apparel.jpg);
   background-position: top;
   background-repeat: no-repeat;
+  height: 280px;
+  width: 100%;
+}
+#Security_Uniform {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assets/Security_Uniform/Security_Uniform.jpg);
+  background-position: top;
+  background-repeat: repeat;
   height: 280px;
   width: 100%;
 }

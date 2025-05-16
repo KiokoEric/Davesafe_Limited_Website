@@ -30,18 +30,21 @@ return (
                 Navigation={'/HeadGear'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4'
                 Image={ Head_Gear}
+                Width='600px'
                 NavigateText='Protective Head Gear'
             />
             <Figure
                 Navigation={'/FaceProtection'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4'
                 Image={ Eye_Protection }
+                Width='600px'
                 NavigateText='Eye and Face Protection'
             />
             <Figure
                 Navigation={'/HearingProtection'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4'
                 Image={ Ear_Protection }
+                Width='600px'
                 NavigateText='Hearing Protection'
             />
         </section> 
@@ -50,18 +53,21 @@ return (
                 Navigation={'/RespiratoryProtection'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4'
                 Image={ Respiratory_Protection }
+                Width='600px'
                 NavigateText='Respiratory Protection'
             />
             <Figure
                 Navigation={'/HandGloves'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4'
                 Image={ Hand_Gloves }
+                Width='600px'
                 NavigateText='Protective Hand Gloves'
             />
             <Figure
                 Navigation={'/FootWear'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4'
                 Image={ Foot_Protection }
+                Width='600px'
                 NavigateText='Protective Foot Wear'
             />
         </section>
@@ -70,12 +76,14 @@ return (
                 Navigation={'/ProtectiveClothing'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4'
                 Image={ Protective_Clothing }
+                Width='600px'
                 NavigateText='Personal Protective Clothing'
             />
             <Figure
                 Navigation={'/SchoolClothing'}
                 ContainerStyle='cursor-pointer flex flex-col gap-4'
                 Image={ School_Apparel }
+                Width='600px'
                 NavigateText='School Apparel'
             />
         </section>

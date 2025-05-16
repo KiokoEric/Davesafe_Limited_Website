@@ -18,16 +18,19 @@ return (
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Safety_Helmet }
+                Width='600px'
                 NavigateText='Safety Helmet'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ FireFighter_Helmet }
+                Width='600px'
                 NavigateText='FireFighter Helmet'
             />
             <Figure
                 ContainerStyle='flex flex-col gap-4'
                 Image={ Motorcycle_Helmet }
+                Width='600px'
                 NavigateText='Motorcycle Helmet'
             />
         </section>
